@@ -61,6 +61,10 @@ public class MybatisGeneratorBridge {
 	    configuration.addClasspathEntry(connectorLibPath);
         // Table configuration
         TableConfiguration tableConfig = new TableConfiguration(context);
+        tableConfig.setCountByExampleStatementEnabled(false);
+        tableConfig.setDeleteByExampleStatementEnabled(false);
+        tableConfig.setSelectByExampleStatementEnabled(false);
+        tableConfig.setUpdateByExampleStatementEnabled(false);
         tableConfig.setTableName(generatorConfig.getTableName());
         tableConfig.setDomainObjectName(generatorConfig.getDomainObjectName());
 

@@ -156,7 +156,7 @@
                                     <Insets left="5.0" />
                                  </GridPane.margin></TextField>
                                       <Label text="映射XML文件包名" GridPane.rowIndex="6" />
-                                        <TextField fx:id="mapperTargetPackage" prefHeight="27.0" prefWidth="248.0" promptText="com.example" GridPane.columnIndex="1" GridPane.rowIndex="6">
+                                        <TextField fx:id="mapperTargetPackage" prefHeight="27.0" prefWidth="248.0" promptText="." GridPane.columnIndex="1" GridPane.rowIndex="6">
                                             <HBox.margin>
                                                 <Insets right="5.0" />
                                             </HBox.margin>
