@@ -66,6 +66,7 @@ public class MybatisGeneratorBridge {
         tableConfig.setSelectByExampleStatementEnabled(false);
         tableConfig.setUpdateByExampleStatementEnabled(false);
         tableConfig.setTableName(generatorConfig.getTableName());
+        tableConfig.setConfiguredModelType("flat");
         tableConfig.setDomainObjectName(generatorConfig.getDomainObjectName());
 
         // 针对 postgresql 单独配置
